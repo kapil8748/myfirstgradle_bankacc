@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Reports (generated at runtime)
+reports/
+
+# Java
+*.class
+*.jar
+
+# OS
+.DS_Store
+Thumbs.db
