@@ -10,7 +10,7 @@ public class ExtentReportManager {
 
     public static ExtentReports getInstance() {
         if (extent == null) {
-            ExtentSparkReporter spark = new ExtentSparkReporter("reports/ExtentReport.html");
+            ExtentSparkReporter spark = new ExtentSparkReporter("../reports/ExtentReport.html");
             spark.config().setDocumentTitle("BankAccount Test Report");
             spark.config().setReportName("JUnit 5 — BankAccount Test Suite");
             spark.config().setTheme(Theme.DARK);
