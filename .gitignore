@@ -10,7 +10,7 @@ gradle-wrapper.jar
 out/
 
 # Reports (generated at runtime)
-reports/
+#reports/
 
 # Java
 *.class
